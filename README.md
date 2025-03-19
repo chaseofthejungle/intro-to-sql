@@ -13,6 +13,15 @@
 <hr />
   
 ## 1. <a name="crud">CRUD Operations</a>
+
+Persistent storage databases have four types of operations that are performed open them, which are commonly abbreviated as *CRUD*:
+
+| CRUD Principle | Popular SQL Statement Keywords |
+| :---: | :---: |
+| **C**reate | INSERT INTO/VALUES, CREATE TABLE |
+| **R**ead | SELECT |
+| **U**pdate | UPDATE, ALTER TABLE/ADD |
+| **D**elete | DELETE, DROP TABLE |
   
 <hr />
   
@@ -32,4 +41,4 @@
   
 <hr />
   
-TODO: Create initial 'CRUD Operations', 'Key Terms' (e.g., column, field, primary key, foreign key), 'NoSQL vs. SQL', 'SQL Clauses', and 'Additional Resources' section content.
+TODO: 'Key Terms' (e.g., column, field, primary key, foreign key), 'NoSQL vs. SQL', 'SQL Clauses', and 'Additional Resources' section content.
