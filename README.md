@@ -8,7 +8,7 @@
 2. [Key Terms](#key-terms)
 3. [NoSQL vs. SQL](#no-sql)
 4. [SQL Clauses](#sql-clauses)
-5. [Additional Resources](#resources)
+5. [Supplemental Resources](#supplemental)
   
 <hr />
   
@@ -37,8 +37,11 @@ Persistent storage databases have four types of operations that are performed op
   
 <hr />
   
-## 5. <a name="resources">Additional Resources</a>
+## 5. <a name="supplemental">Supplemental Resources</a>
+  
+[Data Repositories Overview Guide](https://github.com/chaseofthejungle/data-repositories-overview)  
+[Types of Databases Guide](https://github.com/chaseofthejungle/types-of-databases)
   
 <hr />
   
-TODO: 'Key Terms' (e.g., column, field, primary key, foreign key), 'NoSQL vs. SQL', 'SQL Clauses', and 'Additional Resources' section content.
+TODO: 'Key Terms' (e.g., column, field, primary key, foreign key), 'NoSQL vs. SQL', and 'SQL Clauses' section content.
