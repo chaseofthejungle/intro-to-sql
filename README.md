@@ -63,4 +63,4 @@ Some common reasons for choosing a NoSQL database include: quick response times/
   
 <hr />
   
-TODO: 'Key Terms' (e.g., column, field, primary key, foreign key), 'NoSQL vs. SQL', and 'SQL Clauses' section content.
+TODO: 'Key Terms' (column/field, row/record, entity, table, primary key, foreign key, relational, RDBMS, referential integrity, normalization, inner join, outer join) and 'SQL Clauses' section content.
