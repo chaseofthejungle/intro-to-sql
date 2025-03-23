@@ -31,6 +31,25 @@ Persistent storage databases have four types of operations that are performed op
   
 ## 3. <a name="no-sql">NoSQL vs. SQL</a>
   
+Several key differences between SQL and Not Only SQL (NoSQL) databases include:
+
+| Feature | SQL | NoSQL |
+| :---: | :---: | :---: |
+| Direction of Scalability | Vertical | Horizontal |
+| Popular Objects | Tables | Column Stores, Documents, Graphs, Key-Value Pairs |
+| Schemas | Predefined | Dynamic |
+| Transaction Handling | Rows (Single or Multiple) | Unstructured Data (e.g., JSON) |
+  
+Some common reasons for choosing a NoSQL database include: quick response times/low latency, instant/real-time analytics, constantly-evolving data, and server scalability needs.
+  
+* **Examples of NoSQL Databases include:**
+    - [Actian NoSQL Object Database](https://www.actian.com/databases/nosql/)
+    - [Apache Cassandra](https://cassandra.apache.org/_/index.html)
+    - [Apache HBase](https://hbase.apache.org/)
+    - [Couchbase](https://www.couchbase.com/)
+    - [MongoDB](https://www.mongodb.com/)
+    - [Redis](https://redis.io/)
+  
 <hr />
   
 ## 4. <a name="sql-clauses">SQL Clauses</a>
