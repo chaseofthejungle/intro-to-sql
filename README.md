@@ -43,12 +43,12 @@ Several key differences between SQL and Not Only SQL (NoSQL) databases include:
 Some common reasons for choosing a NoSQL database include: quick response times/low latency, instant/real-time analytics, constantly-evolving data, and server scalability needs.
   
 * **Examples of NoSQL Databases include:**
-    - [Actian NoSQL Object Database](https://www.actian.com/databases/nosql/)
-    - [Apache Cassandra](https://cassandra.apache.org/_/index.html)
-    - [Apache HBase](https://hbase.apache.org/)
-    - [Couchbase](https://www.couchbase.com/)
-    - [MongoDB](https://www.mongodb.com/)
-    - [Redis](https://redis.io/)
+    - [Actian NoSQL Object Database](https://www.actian.com/databases/nosql/): Supports transactional storage of data using object-oriented programming (OOP) languages.
+    - [Apache Cassandra](https://cassandra.apache.org/_/index.html): Optimizes parallel/commodity computing to handle and serve massive data volumes.
+    - [Apache HBase](https://hbase.apache.org/): Enables fault-tolerant storage of sparse data.
+    - [Couchbase](https://www.couchbase.com/): Promotes linear scalability and memcached key/value data storage.
+    - [MongoDB](https://www.mongodb.com/): Utilizes JSON-like documents and handles large volume, diverse data storage (e.g., e-mails, scanned documents).
+    - [Redis](https://redis.io/): Popular as a message broker and distributed cache, supporting low-latency reading and writing.
   
 <hr />
   
