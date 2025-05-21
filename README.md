@@ -67,8 +67,9 @@ Six of the most commonly applied SQL clauses include:
   
 ## 5. <a name="supplemental">Supplemental Resources</a>
   
-[Data Repositories Overview Guide](https://github.com/chaseofthejungle/data-repositories-overview)  
-[Types of Databases Guide](https://github.com/chaseofthejungle/types-of-databases)
+* *[Data Repositories Overview Guide](https://github.com/chaseofthejungle/data-repositories-overview)*  
+* *[Types of Databases Guide](https://github.com/chaseofthejungle/types-of-databases)*
+* *[Codecademy Learn SQL Course](https://www.codecademy.com/learn/learn-sql)*
   
 <hr />
   
