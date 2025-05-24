@@ -5,9 +5,9 @@
 #### Table of Contents
   
 1. [CRUD Operations](#crud)
-2. [Key Terms](#key-terms)
+2. [SQL Clauses](#sql-clauses)
 3. [NoSQL vs. SQL](#no-sql)
-4. [SQL Clauses](#sql-clauses)
+4. [Database Terms](#key-terms)
 5. [Supplemental Resources](#supplemental)
   
 <hr />
@@ -25,19 +25,16 @@ Persistent storage databases have four types of operations that are performed op
   
 <hr />
   
-## 2. <a name="key-terms">Key Terms</a>
+## 2. <a name="sql-clauses">SQL Clauses</a>  
+
+Six of the most commonly applied SQL clauses include:
   
-**Table:** A database object/structure containing related fields (columns) and their associated records (rows).  
-**Field:** A column from a database table. This is a vertical data unit with a name and a data type (e.g., Integer, String, Date).  
-**Record:** A row from a database table. This is a horizontal data unit that spans all of the fields (columns) in a table.  
-**Entity:** A 'noun' (person, place, or thing) that the data of a record (row) describes.  
-  
-**Primary Key:** One or more fields (columns) in a database table that uniquely identifies a row by not permitting repeat values (IDs, such as student and employee IDs, are popular primary keys).  
-**Foreign Key:** One of more fields (columns) in a database table that only include values corresponding to the primary key of another table. Primary and foreign keys, in tandem, define table relationships.  
-**Referential Integrity:** Occurs when the values of a foreign key successfully correspond to the row values of an associated table's primary key.  
-  
-**Relational:** A database type in which the relationships between tables are established via matching/corresponding fields (columns). A software program that provides data persistence for and manages relational databases is referred to as an *RDBMS* (Relational Database Management System).  
-**Normalization:** A data organization approach in which best practices for data integrity are followed (data are consistent and redundancy is reduced).  
+* **SELECT:** Specifies which column(s) results should be returned from.
+* **FROM:** Specifies which table(s) results should be returned from.
+* **WHERE:** Filters datas based on provided conditions/constraints.
+* **GROUP BY:** Brings together rows (as summary rows) that have the same values for specified columns/fields.
+* **HAVING:** After aggregate functions are utilized, filters grouped rows according to provided specifications.
+* **ORDER BY:** Sorts data in ascending (A-Z, 0-9) or descending (Z-A, 9-0) order.  
   
 <hr />
   
@@ -64,16 +61,19 @@ Some common reasons for choosing a NoSQL database include: quick response times/
   
 <hr />
   
-## 4. <a name="sql-clauses">SQL Clauses</a>
+## 4. <a name="key-terms">Database Terms</a>
   
-Six of the most commonly applied SQL clauses include:
+**Table:** A database object/structure containing related fields (columns) and their associated records (rows).  
+**Field:** A column from a database table. This is a vertical data unit with a name and a data type (e.g., Integer, String, Date).  
+**Record:** A row from a database table. This is a horizontal data unit that spans all of the fields (columns) in a table.  
+**Entity:** A 'noun' (person, place, or thing) that the data of a record (row) describes.  
   
-* **SELECT:** Specifies which column(s) results should be returned from.
-* **FROM:** Specifies which table(s) results should be returned from.
-* **WHERE:** Filters datas based on provided conditions/constraints.
-* **GROUP BY:** Brings together rows (as summary rows) that have the same values for specified columns/fields.
-* **HAVING:** After aggregate functions are utilized, filters grouped rows according to provided specifications.
-* **ORDER BY:** Sorts data in ascending (A-Z, 0-9) or descending (Z-A, 9-0) order.
+**Primary Key:** One or more fields (columns) in a database table that uniquely identifies a row by not permitting repeat values (IDs, such as student and employee IDs, are popular primary keys).  
+**Foreign Key:** One of more fields (columns) in a database table that only include values corresponding to the primary key of another table. Primary and foreign keys, in tandem, define table relationships.  
+**Referential Integrity:** Occurs when the values of a foreign key successfully correspond to the row values of an associated table's primary key.  
+  
+**Relational:** A database type in which the relationships between tables are established via matching/corresponding fields (columns). A software program that provides data persistence for and manages relational databases is referred to as an *RDBMS* (Relational Database Management System).  
+**Normalization:** A data organization approach in which best practices for data integrity are followed (data are consistent and redundancy is reduced).
   
 <hr />
   
