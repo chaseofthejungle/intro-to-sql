@@ -27,6 +27,18 @@ Persistent storage databases have four types of operations that are performed op
   
 ## 2. <a name="key-terms">Key Terms</a>
   
+**Table:** A database object/structure containing related fields (columns) and their associated records (rows).  
+**Field:** A column from a database table. This is a vertical data unit with a name and a data type (e.g., Integer, String, Date).  
+**Record:** A row from a database table. This is a horizontal data unit that spans all of the fields (columns) in a table.  
+**Entity:** A 'noun' (person, place, or thing) that the data of a record (row) describes.  
+  
+**Primary Key:** One or more fields (columns) in a database table that uniquely identifies a row by not permitting repeat values (IDs, such as student and employee IDs, are popular primary keys).  
+**Foreign Key:** One of more fields (columns) in a database table that only include values corresponding to the primary key of another table. Primary and foreign keys, in tandem, define table relationships.  
+**Referential Integrity:** Occurs when the values of a foreign key successfully correspond to the row values of an associated table's primary key.  
+  
+**Relational:** A database type in which the relationships between tables are established via matching/corresponding fields (columns). A software program that provides data persistence for and manages relational databases is referred to as an *RDBMS* (Relational Database Management System).  
+**Normalization:** A data organization approach in which best practices for data integrity are followed (data are consistent and redundancy is reduced).  
+  
 <hr />
   
 ## 3. <a name="no-sql">NoSQL vs. SQL</a>
@@ -70,7 +82,3 @@ Six of the most commonly applied SQL clauses include:
 * *[Data Repositories Overview Guide](https://github.com/chaseofthejungle/data-repositories-overview)*  
 * *[Types of Databases Guide](https://github.com/chaseofthejungle/types-of-databases)*
 * *[Codecademy Learn SQL Course](https://www.codecademy.com/learn/learn-sql)*
-  
-<hr />
-  
-TODO: 'Key Terms' (column/field, row/record, entity, table, primary key, foreign key, relational, RDBMS, referential integrity, normalization, inner join, outer join) section content.
