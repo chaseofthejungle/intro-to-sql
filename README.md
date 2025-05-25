@@ -82,3 +82,7 @@ Six of the most commonly applied SQL clauses include:
 * *[Data Repositories Overview Guide](https://github.com/chaseofthejungle/data-repositories-overview)*  
 * *[Types of Databases Guide](https://github.com/chaseofthejungle/types-of-databases)*
 * *[Codecademy Learn SQL Course](https://www.codecademy.com/learn/learn-sql)*
+  
+<hr />
+  
+**TODO:** Add sections on joins (inner, outer, left, right), limits/offsets, and constraint operators.
