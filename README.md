@@ -5,8 +5,8 @@
 #### Table of Contents
   
 1. [CRUD Operations](#crud)
-2. [SQL Clauses](#sql-clauses)
-3. [NoSQL vs. SQL](#no-sql)
+2. [NoSQL vs. SQL](#no-sql)
+3. [SQL Clauses](#sql-clauses)
 4. [Database Terms](#key-terms)
 5. [Supplemental Resources](#supplemental)
   
@@ -25,20 +25,7 @@ Persistent storage databases have four types of operations that are performed op
   
 <hr />
   
-## 2. <a name="sql-clauses">SQL Clauses</a>  
-
-Six of the most commonly applied SQL clauses include:
-  
-* **SELECT:** Specifies which column(s) results should be returned from.
-* **FROM:** Specifies which table(s) results should be returned from.
-* **WHERE:** Filters datas based on provided conditions/constraints.
-* **GROUP BY:** Brings together rows (as summary rows) that have the same values for specified columns/fields.
-* **HAVING:** After aggregate functions are utilized, filters grouped rows according to provided specifications.
-* **ORDER BY:** Sorts data in ascending (A-Z, 0-9) or descending (Z-A, 9-0) order.  
-  
-<hr />
-  
-## 3. <a name="no-sql">NoSQL vs. SQL</a>
+## 2. <a name="no-sql">NoSQL vs. SQL</a>
   
 Several key differences between SQL and Not Only SQL (NoSQL) databases include:
 
@@ -58,6 +45,19 @@ Some common reasons for choosing a NoSQL database include: quick response times/
     - [Couchbase](https://www.couchbase.com/): Promotes linear scalability and memcached key/value data storage.
     - [MongoDB](https://www.mongodb.com/): Utilizes JSON-like documents and handles large volume, diverse data storage (e.g., e-mails, scanned documents).
     - [Redis](https://redis.io/): Popular as a message broker and distributed cache, supporting low-latency reading and writing.
+  
+<hr />
+  
+## 3. <a name="sql-clauses">SQL Clauses</a>  
+
+Six of the most commonly applied SQL clauses include:
+  
+* **SELECT:** Specifies which column(s) results should be returned from.
+* **FROM:** Specifies which table(s) results should be returned from.
+* **WHERE:** Filters datas based on provided conditions/constraints.
+* **GROUP BY:** Brings together rows (as summary rows) that have the same values for specified columns/fields.
+* **HAVING:** After aggregate functions are utilized, filters grouped rows according to provided specifications.
+* **ORDER BY:** Sorts data in ascending (A-Z, 0-9) or descending (Z-A, 9-0) order.  
   
 <hr />
   
