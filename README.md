@@ -4,28 +4,15 @@
   
 #### Table of Contents
   
-1. [CRUD Operations](#crud)
-2. [NoSQL vs. SQL](#no-sql)
+1. [NoSQL vs. SQL](#no-sql)
+2. [CRUD Operations](#crud)
 3. [SQL Clauses](#sql-clauses)
 4. [Database Terms](#key-terms)
 5. [Supplemental Resources](#supplemental)
   
 <hr />
-  
-## 1. <a name="crud">CRUD Operations</a>
-
-Persistent storage databases have four types of operations that are performed open them, which are commonly abbreviated as *CRUD*:
-
-| CRUD Principle | Popular SQL Statement Keywords |
-| :---: | :---: |
-| **C**reate | INSERT INTO/VALUES, CREATE TABLE |
-| **R**ead | SELECT |
-| **U**pdate | UPDATE, ALTER TABLE/ADD |
-| **D**elete | DELETE, DROP TABLE |
-  
-<hr />
-  
-## 2. <a name="no-sql">NoSQL vs. SQL</a>
+    
+## 1. <a name="no-sql">NoSQL vs. SQL</a>
   
 Several key differences between SQL and Not Only SQL (NoSQL) databases include:
 
@@ -48,6 +35,19 @@ Some common reasons for choosing a NoSQL database include: quick response times/
   
 <hr />
   
+## 2. <a name="crud">CRUD Operations</a>
+
+Persistent storage databases have four types of operations that are performed open them, which are commonly abbreviated as *CRUD*:
+
+| CRUD Principle | Popular SQL Statement Keywords |
+| :---: | :---: |
+| **C**reate | INSERT INTO/VALUES, CREATE TABLE |
+| **R**ead | SELECT |
+| **U**pdate | UPDATE, ALTER TABLE/ADD |
+| **D**elete | DELETE, DROP TABLE |
+  
+<hr />
+
 ## 3. <a name="sql-clauses">SQL Clauses</a>  
 
 Six of the most commonly applied SQL clauses include:
