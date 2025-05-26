@@ -6,8 +6,8 @@
   
 1. [NoSQL vs. SQL](#no-sql)
 2. [CRUD Operations](#crud)
-3. [SQL Clauses](#sql-clauses)
-4. [Database Terms](#key-terms)
+3. [Database Terms](#key-terms)
+4. [SQL Clauses](#sql-clauses)
 5. [Supplemental Resources](#supplemental)
   
 <hr />
@@ -47,21 +47,8 @@ Persistent storage databases have four types of operations that are performed op
 | **D**elete | DELETE, DROP TABLE |
   
 <hr />
-
-## 3. <a name="sql-clauses">SQL Clauses</a>  
-
-Six of the most commonly applied SQL clauses include:
   
-* **SELECT:** Specifies which column(s) results should be returned from.
-* **FROM:** Specifies which table(s) results should be returned from.
-* **WHERE:** Filters datas based on provided conditions/constraints.
-* **GROUP BY:** Brings together rows (as summary rows) that have the same values for specified columns/fields.
-* **HAVING:** After aggregate functions are utilized, filters grouped rows according to provided specifications.
-* **ORDER BY:** Sorts data in ascending (A-Z, 0-9) or descending (Z-A, 9-0) order.  
-  
-<hr />
-  
-## 4. <a name="key-terms">Database Terms</a>
+## 3. <a name="key-terms">Database Terms</a>
   
 **Table:** A database object/structure containing related fields (columns) and their associated records (rows).  
 **Field:** A column from a database table. This is a vertical data unit with a name and a data type (e.g., Integer, String, Date).  
@@ -77,6 +64,19 @@ Six of the most commonly applied SQL clauses include:
   
 <hr />
   
+## 4. <a name="sql-clauses">SQL Clauses</a>  
+
+Six of the most commonly applied SQL clauses include:
+  
+* **SELECT:** Specifies which column(s) results should be returned from.
+* **FROM:** Specifies which table(s) results should be returned from.
+* **WHERE:** Filters datas based on provided conditions/constraints.
+* **GROUP BY:** Brings together rows (as summary rows) that have the same values for specified columns/fields.
+* **HAVING:** After aggregate functions are utilized, filters grouped rows according to provided specifications.
+* **ORDER BY:** Sorts data in ascending (A-Z, 0-9) or descending (Z-A, 9-0) order.  
+  
+<hr />
+
 ## 5. <a name="supplemental">Supplemental Resources</a>
   
 * *[Data Repositories Overview Guide](https://github.com/chaseofthejungle/data-repositories-overview)*  
