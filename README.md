@@ -8,8 +8,10 @@
 2. [CRUD Operations](#crud)
 3. [Database Terms](#key-terms)
 4. [SQL Clauses](#sql-clauses)
-5. [SQL Joins](#sql-joins)
-6. [Supplemental Resources](#supplemental)
+5. [SQL Constraints](#sql-constraints)
+6. [SQL Filtering and Sorting](#sql-filtering-sorting)
+7. [SQL Joins](#sql-joins)
+8. [Supplemental Resources](#supplemental)
   
 <hr />
     
@@ -77,8 +79,20 @@ Six of the most commonly applied SQL clauses include:
 * **ORDER BY:** Sorts data in ascending (A-Z, 0-9) or descending (Z-A, 9-0) order.  
   
 <hr />
+
+## 5. <a name="sql-constraints">SQL Constraints</a>
   
-## 5. <a name="sql-joins">SQL Joins</a>
+(TODO)
+  
+<hr />
+
+## 6. <a name="sql-filtering-sorting">SQL Filtering and Sorting</a>
+  
+(TODO)
+  
+<hr />
+  
+## 7. <a name="sql-joins">SQL Joins</a>
   
 An SQL `JOIN` clause combines rows/records from multiple tables, relying on a related column/field from between them in doing so. Types of joins include:
   
@@ -89,12 +103,8 @@ An SQL `JOIN` clause combines rows/records from multiple tables, relying on a re
   
 <hr />
   
-## 6. <a name="supplemental">Supplemental Resources</a>
+## 8. <a name="supplemental">Supplemental Resources</a>
   
 * *[Data Repositories Overview Guide](https://github.com/chaseofthejungle/data-repositories-overview)*  
 * *[Types of Databases Guide](https://github.com/chaseofthejungle/types-of-databases)*
 * *[Codecademy Learn SQL Course](https://www.codecademy.com/learn/learn-sql)*
-  
-<hr />
-  
-**TODO:** Add sections on limits/offsets and constraint operators.
