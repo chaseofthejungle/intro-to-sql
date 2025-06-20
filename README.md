@@ -108,3 +108,7 @@ An SQL `JOIN` clause combines rows/records from multiple tables, relying on a re
 * *[Data Repositories Overview Guide](https://github.com/chaseofthejungle/data-repositories-overview)*  
 * *[Types of Databases Guide](https://github.com/chaseofthejungle/types-of-databases)*
 * *[Codecademy Learn SQL Course](https://www.codecademy.com/learn/learn-sql)*
+
+<hr />
+  
+**TODO:** Add sections on: 1) SQL Constraints and 2) an example on how an SQL database might be integrated into an app.
