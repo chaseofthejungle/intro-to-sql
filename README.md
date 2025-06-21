@@ -88,7 +88,32 @@ Six of the most commonly applied SQL clauses include:
 
 ## 6. <a name="sql-filtering-sorting">SQL Filtering and Sorting</a>
   
-(TODO)
+**Filtering:** Syntax for a SQL query that produces only non-repeating (unique) rows (records)...
+  
+```
+SELECT DISTINCT column_one, column_two
+FROM example_table
+WHERE condition(s);
+```
+  
+**Sorting:** Syntax for a SQL query that organizes results by column (field), in ascending or descending order...
+  
+```
+SELECT column_one, column_two
+FROM example_table
+WHERE condition(s)
+ORDER BY column ASC/DESC;
+```
+  
+**Limiting and Skipping:** Syntax for a SQL query that limits how many records to return, and (optionally) which index value (position) in the data to begin returning them from... 
+  
+```
+SELECT column_one, column_two
+FROM example_table
+WHERE condition(s)
+ORDER BY column ASC/DESC
+LIMIT limit_value OFFSET offset_value;
+```
   
 <hr />
   
