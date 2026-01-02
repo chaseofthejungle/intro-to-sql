@@ -123,10 +123,12 @@ LIMIT limit_value OFFSET offset_value;
   
 An SQL `JOIN` clause combines rows/records from multiple tables, relying on a related column/field from between them in doing so. Types of joins include:
   
-**INNER JOIN**: Retrieves records with corresponding values from the tables expressed in the join clause.  
-**LEFT OUTER JOIN**: Retrieves all records from the 'left' table, as well as corresponding records from the 'right' table.  
-**RIGHT OUTER JOIN**: Retrieves all records from the 'right' table, as well as the corresponding records from the 'left' table.  
-**FULL OUTER JOIN**: Retrieves all corresponding records, regardless of if the match is form the 'left' or 'right' table.  
+| Join Type | Explanation |
+| :---: | :---: |
+| **INNER JOIN** | Retrieves records with corresponding values from the tables expressed in the join clause. |
+| **LEFT OUTER JOIN** | Retrieves all records from the 'left' table, as well as corresponding records from the 'right' table. |
+| **RIGHT OUTER JOIN** | Retrieves all records from the 'right' table, as well as the corresponding records from the 'left' table. |
+| **FULL OUTER JOIN** | Retrieves all corresponding records, regardless of if the match is form the 'left' or 'right' table. |
   
 <hr />
   
