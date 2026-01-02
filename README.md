@@ -70,13 +70,15 @@ Persistent storage databases have four types of operations that are performed op
 ## 4. <a name="sql-clauses">SQL Clauses</a>  
 
 Six of the most commonly applied SQL clauses include:
-  
-* **SELECT:** Specifies which column(s) results should be returned from.
-* **FROM:** Specifies which table(s) results should be returned from.
-* **WHERE:** Filters datas based on provided conditions/constraints.
-* **GROUP BY:** Brings together rows (as summary rows) that have the same values for specified columns/fields.
-* **HAVING:** After aggregate functions are utilized, filters grouped rows according to provided specifications.
-* **ORDER BY:** Sorts data in ascending (A-Z, 0-9) or descending (Z-A, 9-0) order.  
+
+| Clause | Explanation |
+| :---: | :---: |
+| **SELECT** | Specifies which column(s) results should be returned from. |
+| **FROM** | Specifies which table(s) results should be returned from. |
+| **WHERE** | Filters datas based on provided conditions/constraints. |
+| **GROUP BY** | Brings together rows (as summary rows) that have the same values for specified columns/fields. |
+| **HAVING** | After aggregate functions are utilized, filters grouped rows according to provided specifications. |
+| **ORDER BY** | Sorts data in ascending (A-Z, 0-9) or descending (Z-A, 9-0) order. |
   
 <hr />
 
